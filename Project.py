@@ -157,7 +157,7 @@ class PremierLeagueNetwork:
 
         try:
             path = nx.shortest_path(self.G, source=player1, target=player2)
-            print(f"\n🔗 Connection between {player1} and {player2}:")
+            print(f"\n Connection between {player1} and {player2}:")
             print(f"Degree of separation: {len(path) - 1}")
 
             print("\nDetailed path with context:")
